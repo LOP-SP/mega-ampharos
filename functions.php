@@ -14,7 +14,7 @@
   # Add a link to our writer's recruiting form.
   function add_post_content($content) {
     if (!is_feed() && !is_home()) {
-      $content .= '<p>Gostaria de se tornar um redator da LOP-SP e escrever sobre Pokémon? Cadastre-se <a href="http://goo.gl/forms/ya9xe5thfh" target="_blank">neste formulário</a>!</p>';
+      $content .= '<p class="recruitment-form">Gostaria de se tornar um redator da LOP-SP e escrever sobre Pokémon? Cadastre-se <a href="http://goo.gl/forms/ya9xe5thfh" target="_blank">neste formulário</a>!</p>';
     }
     return $content;
   }
